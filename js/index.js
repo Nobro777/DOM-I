@@ -103,10 +103,10 @@ const newLinks = document.querySelectorAll('a')
 newLinks.forEach(element => {element.style.color = 'green'})
 
 const newHeader = document.querySelector('h1');
-newHeader.textContent = "This is the DOM!";
+newHeader.textContent = siteContent["cta"]["h1"];
 
 const newButton = document.querySelector('button');
-newButton.textContent = "Get Started";
+newButton.textContent = siteContent["cta"]["button"];
 
 
 document.querySelector(".main-content").getElementsByTagName("h4")[0].textContent = siteContent["main-content"]["features-h4"];
